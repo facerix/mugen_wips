@@ -1,0 +1,47 @@
+beta feedback:
+
+Arma:
+- The blue custom hyper its missing the construct sound.
+- If you hit red hal while doing the HP plasma vomit (posibly with the others) the vomit keeps going.
+- If you make the special with the airplane of red hal in air it looks weird cause when he is "landing" the sprite change... Its hard to explain but I think the airplane should disappear before hal change sprite or keep the "crouching" sprite. 
+
+
+Ceefus (Stan Benoit):
+- There is a bug where while hes Orange Lantern  and he uses the hyper that involving pressing punch and kick at the same time to create a duplicate of himself   the duplicate doesnt do anything  its just stands there
+- The hyper called ring slinging where punches the ground and a barrage of energy comes out doesnt connect properly and hits the opponent   is there a way to make each energy a multi hit combo  
+- this isnt really a bug    but i wonder if you can combine the hyper Smackdown and Knockout
+1.When Charing the ring with your battery by pressing start   The image of the battery stays even after u let go of the start button
+2. Once again as i stated before in Orange lantern Mode  one of the hypers where there is a duplicate freezes  im not sure what it does
+3. Red Lantern Mode  The Hyper were he Yells and an aura of Red Energy surrounds him  The custom hyper doesnt connect with the opponent and does little damage  my suggest is to make the aura bigger more impactful
+4 The Nekron Hyper for the Black Lantern Doesnt Do anything  A big shadow comes out and disapears
+5. As i stated in the previous email u should combine Knockout and smackdown and change the hitsparks and hitsounds to make it more devastating 
+6. Sometimes i cant charge the battery as Normal Green Lantern mode
+
+
+Zachary McCallion (cheeseeater3000):
+- blue/green's special does not effect short characters
+- I do think it's weird that indigo saying English words on most moves that almost all others have (ie. Beam move d,df,f,p).
+- The select picture on the screen in which you pick your character is very odd.  The colors are wrong, it looks like a rainbow gone wrong.
+- Also, I know this is not a suggestion, but I think a white lantern mode would be very cool.
+- I think indigo Hal should taunt and charge his ring with his staff because the indigo tribe did not use lanterns as I recall.
+
+
+NX_Men (watchman watchman):
+- As i use he orange lantern mode when i do the Construct Corps hyper, just a clone appears in the screen and nothing else.
+- Moreover when i use the black lantern mode when i do the attack with the sculls there isnt any damage to my opponent.
+- Finally when i do the Nekron Rising nothing is done and there is no damage to my opponent!!!
+- When the lanterns are charging, if the opponent kick them while charging, the lantern keep charging for some seconds!!!
+
+
+Titus Thomas:
+- Small Pic color is messed up.
+- During taunt when attacked, Hal's lantern battery stays with him for the rest of the match.
+- Taunt doesn't work in training mode, since it fills hyper bar not sure that it should work.
+- AI computer controlled Hal does not perform any of the different corps moves or hypers. For instance AI Red Lantern Hal does a red colored ram charge special and ring strike special instead of jet rush and plasma vomit. And Black Lantern Hal does a white colored ram charge and ring strike instead of skull swarm and piercing strike, etc.
+- The Ion Force hyper can be spammed at least three times.
+- If Red Lantern Hal doesn't hit the opponent with the low punch plasma vomit, it appears that he sucks the vomits back up. Nasty lol
+- Also, the flames of rage doesn't last long enough, especially the fire.
+- The soldier of oa hyper says homing missiles, but they don't follow the opponent like your Lobo's big frigging gun hyper does.
+- Just my suggestion for Sinestro Corps sinister sabres, have low kick create one sabre, medium kick two sabres, and strong kick three.
+- During Orange Mode go away special move there is no push back and Hal says "go" and not "go away."
+- During Black Lantern Hal's win pose, it is hard to understand what the ring or Nekron is saying.

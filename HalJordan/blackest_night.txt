@@ -1,0 +1,305 @@
+1/24
+- red quirk (slow life drain, heartbeat)
+- added yellow win voice (laugh)
+- fixed ring spark on air Deadly Embrace
+- revamped skull behavior in Deadly Embrace (I like it a lot more now)
+- finalized Blue custom hyper   
+- replaced Black winpose sprite (looks more evil)
+- added collision boxes to Smackdown, and caused the glove construct to dissipate if player is hit while executing it
+
+1/22
+- black winpose
+- fixed all black construct anims
+- black passive #1 (full health regen after standing still for 50 ticks)
+- fixed alignment of taunt/lantern charge effects
+- customized Indigo charge effect to use the staff instead of the lantern
+
+1/20
+- orange intro voice
+- finished orange winpose
+- revamped red / black intros
+
+1/13
+- finished replacing all smart-paletted sprites (whew!)
+- replaced the old plasma vomit sprite with the new, skinnier one
+- fixed alignment of Blue special
+
+1/12
+- Added black construct effects for all specials & hypers (and it looks pretty awesome)
+- Better sounds for swordsman, black drill special, soldier of oa hyper
+
+
+What's left:
+    Globals:
+    * fix timing on basic attacks (working on this now)
+    * add/change constructs to several more of the basics
+    * timeover tie voice is wrong
+    * check some basic punches for wrong-colored hands (use bluegreen.pal to identify)
+    * smackdown needs CLSN2s
+    * winpose 3 (183) needs a little anim work
+
+    Red:
+    * [Arma] special: When you repeat to much times the HP plasma vomit he get stucked, try it 
+
+    Orange:
+    * passive enhancement (hyper moves cost half as much power as normal)
+    * hyper: Construct Corps
+
+    Yellow:
+    * quirk (moves take slightly more power to use)
+    * voice for special 1...?
+    * special 2: Cruel Grip
+
+    Blue:
+    * quirk (moves sometimes interrupted by the ring asking "what do you hope for?")
+    * intro should have some SFX
+    * needs a winpose!
+
+    Indigo:
+    * quirk (unblocked projectile attacks decrease both health and power bar)
+    * staff shows up a tick or two too soon in redirect special
+
+    Black:
+    * finish hyper: Nekron Rising 
+
+
+GL voices:
+    no evil shall escape my sight
+    ya wanna fight? ya got one.
+    show me whatcha got
+    you're gonna have to do better than that
+    mission accomplished
+    good over evil, every time
+    fire it up!
+    pour it on!
+    have a taste...
+    come get some...
+    homing missles!
+    (ko)
+    getting hot in here!
+RL sounds:
+    lots of growls and grunts
+OL sounds:
+    no! you can't have it!
+    Mine!
+    Get away!
+    Now you're mine, too
+YL sounds:
+    die!
+    stay put!
+    (manic laughter)
+    Know fear!
+BL sounds:
+    whoa!
+    [ring] what do you hope for?
+IL sounds:
+    Nok
+    I'm needed elsewhere
+    Feel the pain you've caused
+BlkL sounds:
+    [ring] Hal Jordan of Earth... RISE
+    No more brightest day
+    chew on this
+
+
+
+- Balancing Hal (as of Fall 2010) -
+
+Baseline: Green Lantern mode
+
+X * Taunt: lantern charge (only way to increase power bar)
+Specials:
+X * Ring Strike        QCF + P
+~ * Emerald Swordsman  QCF + P (in air only)
+X * Charging Ram       QCF + K (ground and air)
+X * Buzzcut            QCB + P (anti-air)
+X * Plasma Sphere      QCB + K
+
+Hypers:
+X * KO/Smackdown       QCF + PP
+X * Emerald Knight     QCF + KK
+X * Ion Force          QCB + PP
+X * Ring Slinging      QCB + KK
+X * Soldier of Oa      QCB + PK
+
+
+== Red Lantern (palette 07) ==
+X * stance: more aggressive
+X * intro: ring takeover & blood cough
+X * win: growl/shout at P2's ko'ed body (think Savage Hulk's winpose)
+  * passive enhancement: does damage to P2 when grabbed/thrown
+X * quirk: your life very slowly ticks away during the match. Beat your opponent, quick!
+X * Special 1: Plasma Vomit (replaces Ring Strike)
+X * Special 2: Jet Rush (replaces Charging Ram)
+X * Hyper: Flames of Rage (replaces Soldier of Oa)
+
+
+== Orange Lantern (palette 08) ==
+X * stance: arms crossed / defensive
+X * intro: "MINE!" (hugging the lantern)
+~ * win: P2 identity theft
+  * passive enhancement: hyper moves cost half as much power as normal (since I can't give you a "1000%" power bar ;))
+X * quirk: no taunt to recharge the lantern; when it's gone, it's gone (but it starts every round at 3000)
+X * Special 1: Selfish Grab (replaces Plasma Sphere)
+X * Special 2: "Go Away!" (replaces Emerald Swordsman)
+  * Hyper: Construct Corps (replaces Soldier of Oa)
+
+
+== Yellow Lantern (palette 09)
+X * stance: proud, arms crossed (a la Sinestro)
+X * intro: Hal-as-Parallax, then suit changes into standard Sinestro Corps
+X * win: smug laughter
+X * passive enhancement: moves do more damage
+  * quirk: moves take slightly more power to use
+X * Special 1: Sinister Sabres (replaces Buzzcut)
+  * Special 2: Cruel Grip (squeezing sphere; replaces Plasma Sphere)
+X * Hyper: Golden Dragons (replaces KO/Smackdown)
+
+
+== Blue/Green Lantern (palette 10)
+X * stance: slightly chaotic; lots of energy bleeding out of fingertips
+X * intro: torn between blue & green; lots of energy flying around
+  * win: ring raised high
+X * passive enhancement: powerbar quickly recharges whenever you're idle for a short time
+  * quirk: moves sometimes interrupted by the ring asking "what do you hope for?"
+X * Special 1: Ring Blast (bigger beam; replaces Ring Strike)
+X * Special 2: Massive Discharge (huge air beam)
+X * Hyper: Ion Wave (a la Magnetic Shockwave; replaces Ion Force)
+
+
+== Indigo Lantern (palette 11)
+X * stance: both arms forward
+X * intro: teleport on screen with Indigo staff, which then fades away
+X * win: teleport away
+X * passive enhancement: defense stats are slightly higher, so he'll take a bit less damage than normal
+X * quirk: unblocked attacks decrease both health and power bar
+X * Special 1: Teleport (replaces Charging Ram)
+X * Special 2: Nek Ler Klok (Energy Redirect) (replaces Plasma Sphere)
+X * Hyper: Enforced Empathy (replaces Emerald Knight)
+
+
+
+== Black Lantern (palette 12)
+X * stance: like normal, but with an evil grin and without breathing
+X * intro: "Hal Jordan of Earth... RISE!"
+X * win: bump up ring charge by 30%
+X * passive enhancement: super-robust healing factor (health fully refills if you stand still for ~2 seconds)
+X * passive enhancement (2): specials cost no power bar to use
+* quirk: power bar only increases with every KO'ed opponent (30% per win, persists between rounds)
+X * Special 1: Piercing Strike (replaces Ring Strike)
+X * Special 2: Deadly Embrace (i.e. skull swarm) (replaces Buzzcut)
+~ * Hyper: Nekron Rising (replaces Ring Slinging)
+
+
+
+
+
+
+
+
+------------------------------------------
+(old notes)
+
+Green Lantern mode:
+  Specials
+   - Ring Strike        QCF + P
+   - Emerald Swordsman  QCF + P (in air only)
+   - Charging Ram       QCF + K (ground and air)
+   - Buzzcut            QCB + P (anti-air)
+   - Plasma Sphere      QCB + K
+
+  Hypers
+   - KO/Smackdown       QCF + PP
+   - Emerald Knight     QCF + KK
+   - Ion Force          QCB + PP
+   - Ring Slinging      QCB + KK
+   - Soldier of Oa      QCB + PK
+
+
+General (all palettes):
+    x Add a throw (or two?)
+    - powerbar change:
+        - start at 100%
+        - attacks / get-hits don't increase it (you have to hold taunt / ring charge)
+        - OSD of power level
+
+All spectrum palettes (7-12):
+    - Custom intro and win/lose poses (several donated by ScruffyDragon forum member Amon-Ra)
+
+Red Lantern (pal-07):
+    ~ stance: more aggressive
+    ~ intro: ring takeover
+    ~ win: Hulk-style scream (add a frame or two from 4200,[4-6])
+    ~ quirk: no voices... all moves will be accompanied by growls, grunts, and screams
+    - passive: (???) maybe he's unthrowable? is that possible?
+    x special: Plasma Vomit for Ring Strike
+    x special: Jet Flyby for Charging Ram
+    - hyper: Flames of Rage for Soldier of Oa
+
+Orange (pal-08):
+    x stance: more defensive (Amon's work)
+    - intro: lantern hugging ("MINE!")
+    - win: ID theft
+    - quirk...?
+    - passive: ___
+    - special: Selfish Grab for Plasma Sphere
+    - special: "Go Away!" for Emerald Swordsman
+    - hyper: Orange Corps for Soldier of Oa
+
+Yellow (pal-09):
+    - stance: like Sinestro's... arms crossed, floating (use 41,0+100,1+130,0 as parts, maybe?)
+    - intro: Hal-as-Parallax sprites, slow dissolve into yellow suit
+    - win: ___
+    - quirk...?
+    - passive: defense stats will be slightly higher, meaning he'll take a bit less damage than normal
+    - special: Sinester Spear for Buzzcut
+    - special: Cruel Grip (squeezing sphere) for Plasma Sphere
+    - hyper: Parallax for KO/Smackdown
+
+Blue/Green (pal-10):
+    - stance: base on 2000,6...?
+    - intro: "All will be well"...?
+    - win: "I wish you'd go bother someone else." "Sincerity registered."
+    - quirk: sometimes interrupted by the ring asking "what do you hope for?"
+    - passive: powerbar quickly recharges whenever you're idle for a short time
+    - passive: hyper moves cost half as much power as normal 
+        (since I can't give you a "200%" power bar ;))
+    - special: Ring Blast (bigger beam) for Ring Strike
+    - special: __?__ for Emerald Swordsman
+    - hyper: Ion Wave (a la Magnetic Shockwave) for Ion Force
+
+Indigo (pal-11):
+    - stance: standing, maybe (based in part on 192,5...)?
+    - intro: ___
+    - win: ___
+    - quirk?
+    - passive: increased resistance to energy-based attacks
+    - special: Teleport for Charging Ram
+    - special: Nok Tok Pok (Energy Redirect) for Plasma Sphere
+    - hyper: Enforced Empathy for Emerald Knight
+
+Black (pal-12):
+    - stance: ___
+    - intro: ___
+    - win: black ring "RISE" of the KO'ed opponent(s)
+    - quirk: custom voice clips
+    - passive: super-robust healing factor (can only be KO'ed by a level-3 hyper)
+    - passive: power bar charges very slowly, but using hyper moves won't deplete it
+    - special: __?__ for Ring Strike
+    - special: __?__ for Buzzcut
+    - hyper: Ring Swarm ("DIE!") for Ring Slinging
+
+
+Replaced/customized specials (will be 12 total):
+x3 Ring Strike
+x2 Emerald Swordsman
+x2 Charging Ram
+x2 Buzzcut
+x3 Plasma Sphere
+
+Replaced/customized hypers (6 total):
+x1 KO/Smackdown
+x1 Emerald Knight
+x1 Ion Force
+x1 Ring Slinging
+x2 Soldier of Oa

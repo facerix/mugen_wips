@@ -1,0 +1,13 @@
+SethGL's anim renamings/changes:
+
+renumberings:
+2305,[0-2] --> 936,[0-2]
+198 --> 210
+
+additions (remember to grab the related code!)
+221,[0-1] : ring effect for SWK
+	2515,[0-8] : Ion Storm construct
+300,[0-1] : SLP helper (should be renumbered to like 211 or 215)
+350,[0-2] : SHK helper
+710,0 : AMP helper (renumber to 631 or 635)
+720,0 : AHP helper (renum to 655)

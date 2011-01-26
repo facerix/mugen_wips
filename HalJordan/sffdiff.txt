@@ -1,0 +1,207 @@
+====HalJordan====
+Only in Hal.sff
+	12000,0-22
+	9000,(2-3,10-11)
+
+Missing anims:
+
+; AnimDef #9820  -- selfish grab (OL mode)
+; -------------
+; Missing sprite 2274,1
+; Missing sprite 2274,2
+; Missing sprite 2274,3
+; Missing sprite 2274,2
+; Missing sprite 2274,1
+; Missing sprite 2274,2
+; Missing sprite 2274,3
+; Missing sprite 2274,2
+; Missing sprite 2275,0
+; Missing sprite 2275,1
+; Missing sprite 2275,2
+; Missing sprite 2275,3
+; 
+; AnimDef #10100  -- teleport sphere (IL mode)
+; --------------
+; Missing sprite 182,0
+; Missing sprite 195,0
+; Missing sprite 195,0
+; Missing sprite 182,0
+; 
+; AnimDef #10200  -- stasis crystal (SS mode)
+; --------------
+; Missing sprite 1050,0
+; 
+; AnimDef #10210  -- stasis crystal beam (SS mode)
+; --------------
+; Missing sprite 2291,0
+; Missing sprite 2291,1
+; Missing sprite 2291,2
+; Missing sprite 2291,3
+; Missing sprite 2291,4
+; Missing sprite 2291,5
+; Missing sprite 2291,6
+; 
+; AnimDef #10220  -- stasis crystal P2 effect (SS mode)
+; --------------
+; Missing sprite 2293,0
+; 
+; AnimDef #10230  -- stasis crystal P2 effect terminate (SS mode)
+; --------------
+; Missing sprite 2293,0
+
+
+------------------------------------------------
+
+====RLHal====
+Missing anims:
+AnimDef #465
+------------
+Missing sprite 465,7
+
+AnimDef #3310
+-------------
+Missing sprite 3310,0
+
+AnimDef #4010
+-------------
+Missing sprite 9000,11
+Missing sprite 9000,11
+Missing sprite 9000,11
+Missing sprite 9000,11
+Missing sprite 9000,11
+Missing sprite 9000,11
+Missing sprite 9000,11
+Missing sprite 9000,11
+Missing sprite 9000,11
+Missing sprite 9000,11
+Missing sprite 9000,11
+Missing sprite 9000,11
+Missing sprite 9000,11
+Missing sprite 9000,11
+Missing sprite 9000,11
+Missing sprite 9000,11
+Missing sprite 9000,11
+Missing sprite 9000,12
+
+AnimDef #4011
+-------------
+Missing sprite 9000,10
+Missing sprite 9000,10
+Missing sprite 9000,10
+Missing sprite 9000,10
+Missing sprite 9000,10
+Missing sprite 9000,10
+Missing sprite 9000,10
+Missing sprite 9000,10
+Missing sprite 9000,10
+Missing sprite 9000,10
+Missing sprite 9000,10
+Missing sprite 9000,10
+Missing sprite 9000,10
+Missing sprite 9000,10
+Missing sprite 9000,10
+Missing sprite 9000,10
+Missing sprite 9000,10
+
+AnimDef #110
+------------
+Missing sprite 110,6
+
+AnimDef #12000
+--------------
+Missing sprite 12000,0
+Missing sprite 12000,1
+Missing sprite 12000,2
+Missing sprite 12000,3
+Missing sprite 12000,4
+Missing sprite 12000,5
+Missing sprite 12000,6
+Missing sprite 12000,7
+Missing sprite 12000,8
+Missing sprite 12000,9
+Missing sprite 12000,10
+Missing sprite 12000,11
+Missing sprite 12000,12
+Missing sprite 12000,13
+Missing sprite 12000,14
+Missing sprite 12000,15
+Missing sprite 12000,16
+Missing sprite 12000,17
+Missing sprite 12000,18
+Missing sprite 12000,19
+Missing sprite 12000,20
+Missing sprite 12000,21
+Missing sprite 12000,22
+Missing sprite 12000,21
+Missing sprite 12000,20
+Missing sprite 12000,19
+Missing sprite 12000,18
+Missing sprite 12000,17
+Missing sprite 12000,16
+Missing sprite 12000,15
+Missing sprite 12000,14
+Missing sprite 12000,13
+Missing sprite 12000,12
+Missing sprite 12000,11
+Missing sprite 12000,10
+Missing sprite 12000,9
+Missing sprite 12000,8
+Missing sprite 12000,7
+Missing sprite 12000,6
+Missing sprite 12000,5
+Missing sprite 12000,4
+Missing sprite 12000,3
+Missing sprite 12000,2
+Missing sprite 12000,1
+Missing sprite 12000,0
+
+; AnimDef #9820  -- selfish grab (OL mode)
+; -------------
+; Missing sprite 2274,1
+; Missing sprite 2274,2
+; Missing sprite 2274,3
+; Missing sprite 2274,2
+; Missing sprite 2274,1
+; Missing sprite 2274,2
+; Missing sprite 2274,3
+; Missing sprite 2274,2
+; Missing sprite 2275,0
+; Missing sprite 2275,1
+; Missing sprite 2275,2
+; Missing sprite 2275,3
+
+; AnimDef #10100  -- teleport sphere (IL mode)
+; --------------
+; Missing sprite 182,0
+; Missing sprite 195,0
+; Missing sprite 195,0
+; Missing sprite 182,0
+
+
+
+------------------------------------------------
+
+
+New to add (from Seth.sff):
+2515,0-8
+300,0-1
+350,0-2
+710,0
+720,0
+9000,[0-1,100]
+9005,[0-2,5-7,10]
+	936,0-2
+
+
+SethGL's anim renamings/changes:
+
+	renumberings:
+	2305,[0-2] --> 936,[0-2]
+
+additions (remember to grab the related code!)
+221,[0-1] : ring effect for SWK
+2515,[0-8] : Ion Storm construct
+300,[0-1] : SLP helper (should be renumbered to like 211 or 215)
+350,[0-2] : SHK helper
+710,0 : AMP helper (renumber to 631 or 635)
+720,0 : AHP helper (renum to 655)

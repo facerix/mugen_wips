@@ -1,0 +1,42 @@
+;=======================================;
+;      Blackest Night Hal Jordan        ;
+;       Special Edition Preview         ;
+;             for WinMUGEN              ;
+;        http://buyog.com/MUGEN/        ;
+;     http://www.scruffydragon.com/     ;
+;=======================================;
+
+[Info]
+name         = "Blackest Night Hal Jordan"
+displayname  = "Hal Jordan"
+versiondate  = 04,14,2001
+mugenversion = 04,14,2001
+author       = "Enzo, Buyog2099, Arque, and McCready"
+pal.defaults = 1,2,3,4,5,6,7,8,9,10,11,12
+
+
+[Files]
+cmd      = HalJordan.cmd
+cns      = HalJordan.cns
+sprite   = HalJordan.sff
+anim     = HalJordan.air
+sound    = HalJordan.snd
+stcommon = DCvsMarvelcommon.cns
+st       = basics.st
+st1      = specials.st
+st2      = hypers.st
+st3      = overrides.st
+st4      = custom.st
+
+pal1     = modern.act
+pal2     = firstFlight.act
+pal3     = movie.act
+pal4     = classic.act
+pal5     = mature.act
+pal6     = parallax.act
+pal7     = red.act
+pal8     = orange.act
+pal9     = yellow.act
+pal10    = bluegreen.act
+pal11    = indigo.act
+pal12    = black.act
